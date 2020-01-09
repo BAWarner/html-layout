@@ -1,0 +1,99 @@
+.wrapper{
+    padding: 25px;
+}
+
+.box.outter:not(:first-of-type){
+    margin-top: 25px;
+}
+.box{
+    padding: 10px;
+    position: relative;
+    max-width: 1275px;
+}
+.box.no-pad{
+    padding: 0;
+}
+.flex{
+    display: flex;
+    align-items: flex-end;
+}
+.flex div:not(:first-child){
+    margin: 0 35px;
+}
+.flex div:first-child{
+    margin: 0 35px 0 0;
+}
+.border{
+    border-width: 3px;
+    border-color: #000000;
+}
+.border.solid{
+    border-style: solid;
+}
+.border.dotted{
+    border-style: dotted;
+}
+
+.box-shadow{
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.9);
+}
+
+.card{
+    border: 1px solid #dddddd;
+    box-shadow: 5px 5px 5px rgba(208, 208, 208, 0.9);
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 150px 75px;
+}
+
+.card span{
+    font-size: 35px;
+    letter-spacing: 13px;
+    text-transform: uppercase;
+    color: #060180;
+    line-height: 1.4;
+    font-weight: bold;
+}
+
+.bg-purple{
+    background-color: #8A2CE2;
+}
+
+.bg-green{
+    background-color: #228B23
+}
+
+.bg-blue{
+    background-color: #87CEEB;
+}
+
+.bg-yellow{
+    background-color: #FFF9CD;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.rectangle.vertical{
+    width: 400px;
+    height: 200px;
+}
+
+.rectangle.horizontal{
+    width: 50px;
+    height: 150px;
+}
+
+.rectangle.long{
+    width: 85%;
+    height: 200px;
+    margin: 25px auto;
+}
